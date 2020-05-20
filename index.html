@@ -20,12 +20,11 @@
 </head>
 <body>
 
-  <nav>
-  <a href="test0425.html">test 1</a> |
-  <a href="test0425-2.html">test 2</a> |
-  <a href="test0425.html">test 3</a> |
-  <a href="test4.html">test 4</a>
-  </nav>
+  <div id="nav"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $("#nav").load( "nav.html");
+  </script>
 
   <p>index page=</p>
 	<a href="test0425.html"><input type="button" id="b3" type="button" value="to test0425!"></a><br>
